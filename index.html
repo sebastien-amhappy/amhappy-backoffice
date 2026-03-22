@@ -1,125 +1,449 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1894.7">
-  <style type="text/css">
-    body {background-color: #f2f1ec}
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Helvetica; color: #ffffff; -webkit-text-stroke: #ffffff; background-color: #1c2e45}
-    p.p3 {margin: 0.0px 0.0px 20.0px 0.0px; line-height: 22.0px; font: 14.0px Helvetica; color: #757575; -webkit-text-stroke: #757575}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #ffffff; -webkit-text-stroke: #ffffff; background-color: #295078}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 20.0px; font: 13.0px Helvetica; color: #262626; -webkit-text-stroke: #262626}
-    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 20.0px; font: 11.0px Menlo; color: #262626; -webkit-text-stroke: #262626}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #262626; -webkit-text-stroke: #262626; min-height: 14.0px}
-    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Helvetica; color: #757575; -webkit-text-stroke: #757575}
-    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px Helvetica; color: #262626; -webkit-text-stroke: #262626; background-color: #f8b011}
-    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 17.0px Helvetica; color: #ffffff; -webkit-text-stroke: #ffffff}
-    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #ffffff; color: rgba(255, 255, 255, 0.7); -webkit-text-stroke: rgba(255, 255, 255, 0.7); background-color: #17ad67; min-height: 14.0px}
-    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #ffffff; color: rgba(255, 255, 255, 0.7); -webkit-text-stroke: rgba(255, 255, 255, 0.7)}
-    p.p13 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Helvetica; color: #ffffff; -webkit-text-stroke: #ffffff; background-color: #17ad67}
-    p.p14 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Helvetica; color: #757575; -webkit-text-stroke: #757575}
-    p.p15 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Helvetica; color: #262626; -webkit-text-stroke: #262626}
-    p.p16 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #262626; -webkit-text-stroke: #262626; background-color: #d9d8ce; min-height: 14.0px}
-    p.p17 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #757575; -webkit-text-stroke: #757575}
-    p.p18 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #262626; -webkit-text-stroke: #262626}
-    p.p19 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Helvetica; color: #262626; -webkit-text-stroke: #262626}
-    p.p20 {margin: 0.0px 0.0px 0.0px 0.0px; font: 20.0px Helvetica; color: #262626; -webkit-text-stroke: #262626}
-    p.p21 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Helvetica; color: #757575; -webkit-text-stroke: #757575}
-    p.p22 {margin: 0.0px 0.0px 0.0px 0.0px; font: 24.0px 'Apple Color Emoji'; color: #262626; -webkit-text-stroke: #262626}
-    p.p23 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Helvetica; color: #295078; -webkit-text-stroke: #295078}
-    p.p24 {margin: 0.0px 0.0px 0.0px 0.0px; font: 28.0px Helvetica; color: #295078; -webkit-text-stroke: #295078}
-    p.p25 {margin: 0.0px 0.0px 0.0px 0.0px; font: 28.0px Helvetica; color: #17ad67; -webkit-text-stroke: #17ad67}
-    p.p26 {margin: 0.0px 0.0px 0.0px 0.0px; font: 28.0px Helvetica; color: #d79908; -webkit-text-stroke: #d79908}
-    p.p27 {margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px Helvetica; color: #262626; -webkit-text-stroke: #262626; background-color: #ffffff}
-    p.p28 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Helvetica; color: #295078; -webkit-text-stroke: #295078; background-color: #295078; background-color: rgba(41, 80, 120, 0.1)}
-    p.p29 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Helvetica; color: #17ad67; -webkit-text-stroke: #17ad67; background-color: #17ad67; background-color: rgba(23, 173, 103, 0.1)}
-    p.p30 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Helvetica; color: #d79908; -webkit-text-stroke: #d79908; background-color: #f8b011; background-color: rgba(248, 176, 17, 0.1)}
-    p.p31 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Helvetica; color: #534dc0; -webkit-text-stroke: #534dc0; background-color: #514cbc; background-color: rgba(81, 76, 188, 0.1)}
-    span.s1 {font: 14.0px 'Lucida Grande'; font-kerning: none}
-    span.s2 {font-kerning: none}
-    span.s3 {font: 22.0px 'Apple Color Emoji'; font-kerning: none; background-color: #ffffff}
-    span.s4 {font-kerning: none; background-color: #ffffff}
-    span.s5 {font-kerning: none; background-color: #ecebe4}
-    span.s6 {text-decoration: underline ; font-kerning: none; color: #295078; -webkit-text-stroke: 0px #295078}
-    span.s7 {font: 13.0px 'Lucida Grande'; font-kerning: none; background-color: #ecebe4}
-    span.s8 {font: 13.0px Helvetica; font-kerning: none; background-color: #ecebe4}
-    span.s9 {font-kerning: none; background-color: #ececec}
-    span.s10 {font: 11.0px Menlo; font-kerning: none; background-color: #ececec}
-    span.s11 {font: 15.0px 'Lucida Grande'; font-kerning: none}
-    span.s12 {font: 12.0px Helvetica; font-kerning: none; background-color: #ffffff}
-    span.s13 {font-kerning: none; background-color: #1c2e45}
-    span.s14 {font-kerning: none; color: #f8b011; background-color: #1c2e45; -webkit-text-stroke: 0px #f8b011}
-    span.s15 {font: 11.0px 'Apple Color Emoji'; font-kerning: none}
-    span.s16 {font: 14.0px 'Apple Color Emoji'; font-kerning: none; color: #295078; background-color: rgba(41, 80, 120, 0.059); -webkit-text-stroke: 0px #295078}
-    span.s17 {font-kerning: none; color: #295078; background-color: rgba(41, 80, 120, 0.059); -webkit-text-stroke: 0px #295078}
-    span.s18 {font: 14.0px 'Apple Color Emoji'; font-kerning: none; background-color: #ffffff}
-    span.s19 {font-kerning: none; background-color: #f2f1ec}
-    span.s20 {font: 11.0px 'Apple Color Emoji'; font-kerning: none; background-color: #ecebe4}
-    span.s21 {font-kerning: none; background-color: rgba(41, 80, 120, 0.059)}
-    span.s22 {font: 13.0px 'Apple Color Emoji'; font-kerning: none; background-color: rgba(41, 80, 120, 0.059)}
-    span.s23 {font: 15.0px 'Apple Color Emoji'; font-kerning: none}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AmHappy · Back Office</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --blue:#35648B;--blue-dark:#243d57;--yellow:#FBBC10;--yellow-dark:#e0a800;
+  --text:#323232;--muted:#888;--bg:#f5f4f0;--surface:#fff;--border:#e0dfd7;
+  --surface2:#f0efe9;--accent3:#00b87a;--danger:#e53e3e;
+}
+body{background:var(--bg);color:var(--text);font-family:'Lato',sans-serif;min-height:100vh;}
+.header{background:var(--blue-dark);padding:16px 32px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;box-shadow:0 2px 20px rgba(0,0,0,0.2);}
+.header-title{font-family:'Poppins',sans-serif;font-weight:700;font-size:17px;color:white;}
+.header-title span{color:var(--yellow);}
+.sync-status{display:flex;align-items:center;gap:6px;font-size:12px;font-family:'Poppins',sans-serif;font-weight:600;color:rgba(255,255,255,0.7);}
+.sync-dot{width:8px;height:8px;border-radius:50%;background:var(--accent3);}
+.sync-dot.error{background:var(--danger);}
+.sync-dot.syncing{background:var(--yellow);}
+#setupModal{position:fixed;inset:0;background:rgba(0,0,0,0.75);z-index:500;display:flex;align-items:center;justify-content:center;padding:20px;}
+.setup-box{background:var(--surface);border-radius:20px;padding:32px;width:100%;max-width:500px;}
+.setup-box h2{font-family:'Poppins',sans-serif;font-weight:800;font-size:22px;margin-bottom:8px;color:var(--blue);}
+.setup-box p{font-size:14px;color:var(--muted);line-height:1.6;margin-bottom:20px;}
+.setup-step{display:flex;gap:12px;align-items:flex-start;padding:12px;background:var(--surface2);border-radius:10px;margin-bottom:8px;}
+.step-num{width:24px;height:24px;border-radius:50%;background:var(--blue);color:white;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;font-family:'Poppins',sans-serif;flex-shrink:0;}
+.step-text{font-size:13px;color:var(--text);line-height:1.55;}
+.step-text a{color:var(--blue);font-weight:600;}
+.step-text code{background:#f0f0f0;padding:1px 5px;border-radius:4px;font-size:11px;}
+.setup-input{width:100%;background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:11px 14px;font-family:'Lato',sans-serif;font-size:14px;color:var(--text);outline:none;margin-bottom:10px;}
+.setup-input:focus{border-color:var(--blue);}
+.setup-btn{width:100%;background:var(--yellow);border:none;border-radius:10px;padding:13px;color:var(--text);font-family:'Poppins',sans-serif;font-weight:700;font-size:15px;cursor:pointer;}
+.layout{display:grid;grid-template-columns:240px 1fr;min-height:calc(100vh - 66px);}
+.sidebar{background:var(--surface);border-right:1px solid var(--border);padding:24px 0;position:sticky;top:66px;height:calc(100vh - 66px);overflow-y:auto;}
+.sidebar-label{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--muted);padding:0 20px;margin-bottom:8px;font-family:'Poppins',sans-serif;}
+.nav-link{display:flex;align-items:center;gap:10px;padding:10px 20px;cursor:pointer;transition:all 0.15s;font-size:14px;color:var(--text);border-left:3px solid transparent;}
+.nav-link:hover{background:var(--surface2);}
+.nav-link.active{background:rgba(53,100,139,0.06);border-left-color:var(--blue);color:var(--blue);font-weight:600;}
+.sidebar-divider{height:1px;background:var(--border);margin:16px 12px;}
+.stat-mini{margin:0 12px;background:var(--bg);border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:8px;}
+.stat-row{display:flex;justify-content:space-between;font-size:12px;}
+.stat-row .sl{color:var(--muted);}
+.stat-row .sv{font-weight:700;font-family:'Poppins',sans-serif;}
+.main{padding:32px;display:flex;flex-direction:column;gap:24px;}
+.section-title{font-family:'Poppins',sans-serif;font-weight:700;font-size:20px;margin-bottom:4px;}
+.section-sub{color:var(--muted);font-size:13px;margin-bottom:20px;}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:16px;overflow:hidden;margin-bottom:16px;}
+.card-header{padding:16px 20px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;}
+.card-title{font-weight:600;font-size:15px;display:flex;align-items:center;gap:8px;font-family:'Poppins',sans-serif;}
+.card-body{padding:20px;}
+label{display:block;font-size:11px;font-weight:700;color:var(--muted);letter-spacing:0.5px;text-transform:uppercase;margin-bottom:5px;margin-top:14px;font-family:'Poppins',sans-serif;}
+label:first-child{margin-top:0;}
+input[type="text"],textarea,select{width:100%;background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:10px 14px;font-family:'Lato',sans-serif;font-size:14px;color:var(--text);outline:none;transition:border-color 0.2s;}
+input[type="text"]:focus,textarea:focus,select:focus{border-color:var(--blue);}
+textarea{resize:vertical;min-height:90px;line-height:1.5;}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:9px 18px;border-radius:10px;border:none;font-family:'Poppins',sans-serif;font-size:13px;font-weight:600;cursor:pointer;transition:all 0.15s;}
+.btn-primary{background:var(--yellow);color:var(--text);}
+.btn-primary:hover{background:var(--yellow-dark);}
+.btn-secondary{background:var(--surface2);color:var(--text);border:1px solid var(--border);}
+.btn-danger{background:rgba(229,62,62,0.08);color:var(--danger);border:1px solid rgba(229,62,62,0.2);}
+.btn-success{background:var(--accent3);color:white;}
+.btn-sm{padding:5px 11px;font-size:11px;}
+.expert-row{display:flex;align-items:center;gap:12px;padding:14px;background:var(--surface2);border-radius:12px;border:1px solid var(--border);margin-bottom:8px;}
+.expert-av{width:40px;height:40px;border-radius:11px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;font-family:'Poppins',sans-serif;flex-shrink:0;}
+.expert-info{flex:1;}
+.expert-info h4{font-size:14px;font-weight:600;font-family:'Poppins',sans-serif;}
+.expert-info p{font-size:12px;color:var(--muted);margin-top:2px;}
+.toggle-switch{position:relative;width:42px;height:24px;flex-shrink:0;}
+.toggle-switch input{opacity:0;width:0;height:0;}
+.toggle-track{position:absolute;cursor:pointer;inset:0;background:var(--border);border-radius:12px;transition:0.2s;}
+.toggle-switch input:checked+.toggle-track{background:var(--accent3);}
+.toggle-track::before{content:'';position:absolute;height:18px;width:18px;left:3px;bottom:3px;background:white;border-radius:50%;transition:0.2s;box-shadow:0 1px 3px rgba(0,0,0,0.2);}
+.toggle-switch input:checked+.toggle-track::before{transform:translateX(18px);}
+.content-item{display:flex;align-items:flex-start;gap:12px;padding:14px;background:var(--surface2);border:1px solid var(--border);border-radius:12px;margin-bottom:8px;}
+.content-dot{width:8px;height:8px;border-radius:50%;margin-top:5px;flex-shrink:0;}
+.content-info{flex:1;}
+.content-title{font-size:14px;font-weight:600;font-family:'Poppins',sans-serif;}
+.content-cat{font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--muted);margin-top:2px;font-family:'Poppins',sans-serif;}
+.content-text{font-size:12px;color:var(--muted);margin-top:5px;line-height:1.5;}
+.tabs{display:flex;gap:4px;background:var(--surface2);border-radius:12px;padding:4px;margin-bottom:20px;}
+.tab{flex:1;text-align:center;padding:8px;border-radius:9px;font-size:13px;font-weight:500;cursor:pointer;transition:all 0.15s;color:var(--muted);font-family:'Poppins',sans-serif;}
+.tab.active{background:white;color:var(--text);box-shadow:0 1px 4px rgba(0,0,0,0.08);}
+.prompt-editor{font-family:'Courier New',monospace;font-size:12px;min-height:160px;line-height:1.7;}
+.panel{display:none;}
+.panel.active{display:block;}
+.empty-state{text-align:center;padding:36px 20px;color:var(--muted);}
+.empty-state .ei{font-size:36px;margin-bottom:10px;}
+#toast{position:fixed;bottom:30px;left:50%;transform:translateX(-50%) translateY(80px);background:var(--blue-dark);color:white;padding:12px 22px;border-radius:12px;font-size:14px;font-weight:500;box-shadow:0 8px 30px rgba(0,0,0,0.2);transition:transform 0.3s cubic-bezier(0.34,1.56,0.64,1);z-index:999;font-family:'Poppins',sans-serif;}
+#toast.show{transform:translateX(-50%) translateY(0);}
+.kpi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:20px;}
+.kpi-card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px;}
+.kpi-label{font-size:11px;color:var(--muted);font-weight:500;margin-bottom:6px;font-family:'Poppins',sans-serif;}
+.kpi-value{font-family:'Poppins',sans-serif;font-weight:800;font-size:28px;}
+.kpi-sub{font-size:11px;color:var(--muted);margin-top:2px;}
+.sync-banner{background:rgba(53,100,139,0.06);border:1px solid rgba(53,100,139,0.15);border-radius:12px;padding:14px 18px;display:flex;align-items:center;gap:12px;margin-bottom:20px;}
+.color-opt{width:28px;height:28px;border-radius:8px;cursor:pointer;border:2px solid transparent;display:inline-block;margin-right:6px;}
+.color-opt.selected{border-color:#333 !important;}
+</style>
 </head>
 <body>
-<p class="p1"><span class="s1">✓</span><span class="s2"> Sauvegardé</span></p>
-<h2 style="margin: 0.0px 0.0px 8.0px 0.0px; font: 22.0px Helvetica; color: #295078; -webkit-text-stroke: #295078"><span class="s3">⚙️</span><span class="s4"><b> Configuration Back Office</b></span></h2>
-<p class="p3"><span class="s4">Pour synchroniser le Back Office avec ton app iPhone, crée un espace de stockage cloud gratuit sur <b>JSONBin.io</b> en suivant ces étapes :</span></p>
-<p class="p4"><span class="s2"><b>1</b></span></p>
-<p class="p5"><span class="s5">Va sur <a href="https://jsonbin.io/"><span class="s6"><b>jsonbin.io</b></span></a> </span><span class="s7">→</span><span class="s5"> <b>Sign Up</b> gratuit</span></p>
-<p class="p4"><span class="s2"><b>2</b></span></p>
-<p class="p6"><span class="s8">Clique <b>"+ New Bin"</b> </span><span class="s7">→</span><span class="s8"> colle ce JSON : </span><span class="s9">{"experts":[],"content":[],"modes":{},"quickBtns":[]}</span><span class="s8"> </span><span class="s7">→</span><span class="s8"> <b>Create Bin</b></span></p>
-<p class="p4"><span class="s2"><b>3</b></span></p>
-<p class="p5"><span class="s5">Copie le <b>BIN ID</b> affiché (longue suite de chiffres/lettres)</span></p>
-<p class="p4"><span class="s2"><b>4</b></span></p>
-<p class="p5"><span class="s5">Va dans ton profil JSONBin </span><span class="s7">→</span><span class="s5"> <b>API Keys</b> </span><span class="s7">→</span><span class="s5"> copie ta clé (commence par </span><span class="s10">$2b$</span><span class="s5">)</span></p>
-<p class="p7"><span class="s2"></span><br></p>
-<p class="p8"><span class="s4"><b>BIN ID</b></span></p>
-<p class="p8"><span class="s4"><b>CLÉ API JSONBIN</b></span></p>
-<p class="p9"><span class="s2"><b>Connecter le Back Office </b></span><span class="s11"><b>✓</b></span><span class="s12"><span class="Apple-converted-space"> </span></span></p>
-<p class="p10"><span class="s13"><b>Am</b></span><span class="s14"><b>Happy</b></span><span class="s13"><b> · Back Office</b></span></p>
-<p class="p11"><span class="s2"><b></b></span><br></p>
-<p class="p12"><span class="s13"><b>Connecté</b></span></p>
-<p class="p13"><span class="s15">💾</span><span class="s2"><b> Sauvegarder &amp; Sync</b></span></p>
-<p class="p14"><span class="s4"><b>NAVIGATION</b></span></p>
-<p class="p15"><span class="s16">📊</span><span class="s17"><b> Tableau de bord</b></span><span class="s12"> </span><span class="s18">👥</span><span class="s4"> Experts &amp; Sources</span><span class="s12"> </span><span class="s18">📥</span><span class="s4"> Ajouter du contenu</span><span class="s12"> </span><span class="s18">⚙️</span><span class="s4"> Modes &amp; Prompts</span><span class="s12"> </span><span class="s18">⚡</span><span class="s4"> Raccourcis App</span><span class="s12"><span class="Apple-converted-space"> </span></span></p>
-<p class="p16"><span class="s2"></span><br></p>
-<p class="p14"><span class="s4"><b>STATS LIVE</b></span></p>
-<p class="p17"><span class="s19">Experts actifs</span></p>
-<p class="p18"><span class="s19"><b>3</b></span></p>
-<p class="p17"><span class="s19">Contenus</span></p>
-<p class="p18"><span class="s19"><b>0</b></span></p>
-<p class="p17"><span class="s19">Raccourcis</span></p>
-<p class="p18"><span class="s19"><b>4</b></span></p>
-<p class="p16"><span class="s2"></span><br></p>
-<p class="p19"><span class="s20">💾</span><span class="s5"><b> Sync maintenant</b></span><span class="s12"> </span><span class="s20">🔄</span><span class="s5"><b> Reconfigurer</b></span><span class="s12"><span class="Apple-converted-space"> </span></span></p>
-<p class="p20"><span class="s2"><b>Tableau de bord</b></span></p>
-<p class="p21"><span class="s2">Pilote ton Coach IA AmHappy depuis ici</span></p>
-<p class="p22"><span class="s21">🔗</span></p>
-<p class="p23"><span class="s21">Après chaque modification, clique sur <b>"</b></span><span class="s22">💾</span><span class="s21"><b> Sauvegarder &amp; Sync"</b> en haut à droite. Ton app iPhone se mettra à jour automatiquement au prochain démarrage.</span></p>
-<p class="p8"><span class="s4">Experts intégrés</span></p>
-<p class="p24"><span class="s4"><b>3</b></span></p>
-<p class="p8"><span class="s4">Aguilar · Shannen · Delaporte</span></p>
-<p class="p8"><span class="s4">Contenus ajoutés</span></p>
-<p class="p25"><span class="s4"><b>0</b></span></p>
-<p class="p8"><span class="s4">Extraits, techniques, notes</span></p>
-<p class="p8"><span class="s4">Raccourcis app</span></p>
-<p class="p26"><span class="s4"><b>4</b></span></p>
-<p class="p8"><span class="s4">Boutons écran d'accueil</span></p>
-<p class="p27"><span class="s23">🚀</span><span class="s2"><b> Guide d'utilisation</b></span></p>
-<p class="p28"><span class="s2"><b>1</b></span></p>
-<p class="p18"><span class="s4"><b>Experts &amp; Sources</b></span></p>
-<p class="p21"><span class="s4">Ajoute de nouveaux influenceurs vente. L'IA cite leurs techniques dans ses réponses.</span></p>
-<p class="p29"><span class="s2"><b>2</b></span></p>
-<p class="p18"><span class="s4"><b>Ajouter du contenu</b></span></p>
-<p class="p21"><span class="s4">Colle des extraits de podcasts, vidéos, livres. L'IA les intègre dans ses conseils.</span></p>
-<p class="p30"><span class="s2"><b>3</b></span></p>
-<p class="p18"><span class="s4"><b>Modes &amp; Prompts</b></span></p>
-<p class="p21"><span class="s4">Modifie le comportement de chaque mode (Closing, RDV, Stratégie...).</span></p>
-<p class="p31"><span class="s2"><b>4</b></span></p>
-<p class="p18"><span class="s4"><b>Raccourcis App</b></span></p>
-<p class="p21"><span class="s4">Change les 4 boutons rapides sur l'écran d'accueil de l'app iPhone.</span></p>
+<div id="toast">✓ Sauvegardé</div>
+
+<!-- SETUP MODAL -->
+<div id="setupModal">
+  <div class="setup-box">
+    <h2>⚙️ Configuration Back Office</h2>
+    <p>Pour synchroniser le Back Office avec ton app iPhone, crée un espace de stockage cloud gratuit sur <strong>JSONBin.io</strong> en suivant ces étapes :</p>
+    <div class="setup-step"><div class="step-num">1</div><div class="step-text">Va sur <a href="https://jsonbin.io" target="_blank">jsonbin.io</a> → <strong>Sign Up</strong> gratuit</div></div>
+    <div class="setup-step"><div class="step-num">2</div><div class="step-text">Clique <strong>"+ New Bin"</strong> → colle ce JSON : <code>{"experts":[],"content":[],"modes":{},"quickBtns":[]}</code> → <strong>Create Bin</strong></div></div>
+    <div class="setup-step"><div class="step-num">3</div><div class="step-text">Copie le <strong>BIN ID</strong> affiché (longue suite de chiffres/lettres)</div></div>
+    <div class="setup-step"><div class="step-num">4</div><div class="step-text">Va dans ton profil JSONBin → <strong>API Keys</strong> → copie ta clé (commence par <code>$2b$</code>)</div></div>
+    <br>
+    <label>Bin ID</label>
+    <input class="setup-input" id="setupBinId" placeholder="64a1b2c3d4e5f6a7b8c9...">
+    <label>Clé API JSONBin</label>
+    <input class="setup-input" id="setupApiKey" placeholder="$2b$10$...">
+    <button class="setup-btn" onclick="saveSetup()">Connecter le Back Office ✓</button>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="header-title">Am<span>Happy</span> · Back Office</div>
+  <div style="display:flex;align-items:center;gap:12px">
+    <div class="sync-status"><div class="sync-dot" id="syncDot"></div><span id="syncLabel">Connecté</span></div>
+    <button class="btn btn-success btn-sm" onclick="saveAll()">💾 Sauvegarder & Sync</button>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar">
+    <div style="margin-bottom:16px">
+      <div class="sidebar-label">Navigation</div>
+      <div class="nav-link active" onclick="showPanel('dashboard',this)">📊 Tableau de bord</div>
+      <div class="nav-link" onclick="showPanel('experts',this)">👥 Experts & Sources</div>
+      <div class="nav-link" onclick="showPanel('content',this)">📥 Ajouter du contenu</div>
+      <div class="nav-link" onclick="showPanel('modes',this)">⚙️ Modes & Prompts</div>
+      <div class="nav-link" onclick="showPanel('quickbtns',this)">⚡ Raccourcis App</div>
+    </div>
+    <div class="sidebar-divider"></div>
+    <div>
+      <div class="sidebar-label">Stats live</div>
+      <div class="stat-mini">
+        <div class="stat-row"><span class="sl">Experts actifs</span><span class="sv" id="statExperts">3</span></div>
+        <div class="stat-row"><span class="sl">Contenus</span><span class="sv" id="statContent">0</span></div>
+        <div class="stat-row"><span class="sl">Raccourcis</span><span class="sv" id="statQuick">4</span></div>
+      </div>
+    </div>
+    <div class="sidebar-divider"></div>
+    <div style="padding:0 12px">
+      <button class="btn btn-secondary btn-sm" style="width:100%;margin-bottom:6px" onclick="saveAll()">💾 Sync maintenant</button>
+      <button class="btn btn-secondary btn-sm" style="width:100%" onclick="resetSetup()">🔄 Reconfigurer</button>
+    </div>
+  </aside>
+
+  <main class="main">
+
+    <!-- DASHBOARD -->
+    <div class="panel active" id="panel-dashboard">
+      <div class="section-title">Tableau de bord</div>
+      <div class="section-sub">Pilote ton Coach IA AmHappy depuis ici</div>
+      <div class="sync-banner">
+        <span style="font-size:24px">🔗</span>
+        <p style="font-size:13px;color:var(--blue)">Après chaque modification, clique sur <strong>"💾 Sauvegarder & Sync"</strong> en haut à droite. Ton app iPhone se mettra à jour automatiquement au prochain démarrage.</p>
+      </div>
+      <div class="kpi-grid">
+        <div class="kpi-card"><div class="kpi-label">Experts intégrés</div><div class="kpi-value" style="color:var(--blue)" id="kpiExperts">3</div><div class="kpi-sub">Aguilar · Shannen · Delaporte</div></div>
+        <div class="kpi-card"><div class="kpi-label">Contenus ajoutés</div><div class="kpi-value" style="color:var(--accent3)" id="kpiContent">0</div><div class="kpi-sub">Extraits, techniques, notes</div></div>
+        <div class="kpi-card"><div class="kpi-label">Raccourcis app</div><div class="kpi-value" style="color:var(--yellow-dark)" id="kpiQuick">4</div><div class="kpi-sub">Boutons écran d'accueil</div></div>
+      </div>
+      <div class="card">
+        <div class="card-header"><div class="card-title">🚀 Guide d'utilisation</div></div>
+        <div class="card-body">
+          <div style="display:flex;flex-direction:column;gap:14px">
+            <div style="display:flex;gap:12px"><div style="width:28px;height:28px;border-radius:8px;background:rgba(53,100,139,0.1);color:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;flex-shrink:0;font-family:'Poppins',sans-serif">1</div><div><div style="font-weight:600;font-family:'Poppins',sans-serif">Experts & Sources</div><div style="font-size:13px;color:var(--muted);margin-top:2px">Ajoute de nouveaux influenceurs vente. L'IA cite leurs techniques dans ses réponses.</div></div></div>
+            <div style="display:flex;gap:12px"><div style="width:28px;height:28px;border-radius:8px;background:rgba(0,184,122,0.1);color:var(--accent3);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;flex-shrink:0;font-family:'Poppins',sans-serif">2</div><div><div style="font-weight:600;font-family:'Poppins',sans-serif">Ajouter du contenu</div><div style="font-size:13px;color:var(--muted);margin-top:2px">Colle des extraits de podcasts, vidéos, livres. L'IA les intègre dans ses conseils.</div></div></div>
+            <div style="display:flex;gap:12px"><div style="width:28px;height:28px;border-radius:8px;background:rgba(251,188,16,0.1);color:var(--yellow-dark);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;flex-shrink:0;font-family:'Poppins',sans-serif">3</div><div><div style="font-weight:600;font-family:'Poppins',sans-serif">Modes & Prompts</div><div style="font-size:13px;color:var(--muted);margin-top:2px">Modifie le comportement de chaque mode (Closing, RDV, Stratégie...).</div></div></div>
+            <div style="display:flex;gap:12px"><div style="width:28px;height:28px;border-radius:8px;background:rgba(100,100,200,0.1);color:#6666cc;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;flex-shrink:0;font-family:'Poppins',sans-serif">4</div><div><div style="font-weight:600;font-family:'Poppins',sans-serif">Raccourcis App</div><div style="font-size:13px;color:var(--muted);margin-top:2px">Change les 4 boutons rapides sur l'écran d'accueil de l'app iPhone.</div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- EXPERTS -->
+    <div class="panel" id="panel-experts">
+      <div class="section-title">Experts & Sources</div>
+      <div class="section-sub">Active, modifie ou ajoute des experts dans la base IA</div>
+      <div style="display:flex;justify-content:flex-end;margin-bottom:16px">
+        <button class="btn btn-primary" onclick="toggleAddExpert()">+ Ajouter un expert</button>
+      </div>
+      <div class="card" id="addExpertCard" style="display:none">
+        <div class="card-header"><div class="card-title">➕ Nouvel expert</div><button class="btn btn-secondary btn-sm" onclick="toggleAddExpert()">✕</button></div>
+        <div class="card-body">
+          <label>Nom complet</label><input type="text" id="eName" placeholder="ex: Grant Cardone">
+          <label>Initiales (2 lettres)</label><input type="text" id="eInit" placeholder="GC" maxlength="2" style="width:80px">
+          <label>Domaine / Philosophie clé</label><input type="text" id="eDomain" placeholder="ex: Volume de prospection · 10X Rule">
+          <label>Techniques & méthodes à intégrer dans l'IA</label>
+          <textarea id="eContent" placeholder="Ex: Ne jamais baisser son objectif. Multiplier ses efforts par 10. L'urgence est réelle si tu y crois..."></textarea>
+          <label>Couleur</label>
+          <div style="margin-top:6px">
+            <div class="color-opt selected" data-color="#35648B" onclick="selectColor(this)" style="background:#35648B"></div>
+            <div class="color-opt" data-color="#00b87a" onclick="selectColor(this)" style="background:#00b87a"></div>
+            <div class="color-opt" data-color="#FBBC10" onclick="selectColor(this)" style="background:#FBBC10"></div>
+            <div class="color-opt" data-color="#8b5cf6" onclick="selectColor(this)" style="background:#8b5cf6"></div>
+            <div class="color-opt" data-color="#e53e3e" onclick="selectColor(this)" style="background:#e53e3e"></div>
+          </div>
+          <div style="margin-top:16px"><button class="btn btn-primary" onclick="saveExpert()">💾 Ajouter l'expert</button></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header"><div class="card-title">👥 Experts actifs</div></div>
+        <div class="card-body" id="expertsList"></div>
+      </div>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="panel" id="panel-content">
+      <div class="section-title">Ajouter du contenu</div>
+      <div class="section-sub">Extraits, techniques, notes — l'IA les intégrera dans ses réponses</div>
+      <div class="card">
+        <div class="card-header"><div class="card-title">📥 Nouveau contenu</div></div>
+        <div class="card-body">
+          <label>Catégorie</label>
+          <select id="cCat"><option>Technique vente</option><option>Traitement d'objection</option><option>Script / Phrase clé</option><option>Extrait de livre</option><option>Note de podcast / vidéo</option><option>Retour terrain Corse</option><option>Argument AmHappy</option><option>Autre</option></select>
+          <label>Titre</label><input type="text" id="cTitle" placeholder="ex: Technique de l'alternative assumée">
+          <label>Source (optionnel)</label><input type="text" id="cSource" placeholder="ex: Vidéo YouTube Victor Cabrera · 2025">
+          <label>Contenu</label>
+          <textarea id="cContent" style="min-height:140px" placeholder="Colle ici l'extrait, la technique, les phrases clés..."></textarea>
+          <div style="margin-top:16px;display:flex;gap:10px">
+            <button class="btn btn-primary" onclick="saveContent()">💾 Ajouter à l'IA</button>
+            <button class="btn btn-secondary" onclick="clearContentForm()">✕ Effacer</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header"><div class="card-title">📋 Contenus enregistrés</div><button class="btn btn-danger btn-sm" onclick="clearAllContent()">🗑 Tout effacer</button></div>
+        <div class="card-body" id="contentList"><div class="empty-state"><div class="ei">📭</div><p>Aucun contenu ajouté.</p></div></div>
+      </div>
+    </div>
+
+    <!-- MODES -->
+    <div class="panel" id="panel-modes">
+      <div class="section-title">Modes & Prompts</div>
+      <div class="section-sub">Personnalise le comportement de chaque mode de l'app</div>
+      <div class="card">
+        <div class="card-body" style="padding-bottom:8px">
+          <div class="tabs" id="modeTabs">
+            <div class="tab active" onclick="selectModeTab('closing',this)">🔥 Closing</div>
+            <div class="tab" onclick="selectModeTab('rdv',this)">📞 RDV</div>
+            <div class="tab" onclick="selectModeTab('strategie',this)">🧭 Strat.</div>
+            <div class="tab" onclick="selectModeTab('simulation',this)">🎭 Simu</div>
+            <div class="tab" onclick="selectModeTab('libre',this)">💬 Libre</div>
+          </div>
+          <label>Instruction spécifique pour ce mode</label>
+          <textarea class="prompt-editor" id="modePromptText"></textarea>
+          <div style="margin-top:12px;display:flex;gap:10px">
+            <button class="btn btn-primary" onclick="saveMode()">💾 Sauvegarder</button>
+            <button class="btn btn-secondary" onclick="resetMode()">↺ Par défaut</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- QUICK BUTTONS -->
+    <div class="panel" id="panel-quickbtns">
+      <div class="section-title">Raccourcis App</div>
+      <div class="section-sub">Les 4 boutons rapides sur l'écran d'accueil de l'app iPhone</div>
+      <div id="quickBtnsForms" style="display:flex;flex-direction:column;gap:14px"></div>
+      <div style="margin-top:8px"><button class="btn btn-primary" onclick="saveQuickBtns()">💾 Sauvegarder les raccourcis</button></div>
+    </div>
+
+  </main>
+</div>
+
+<script>
+let binId='', binApiKey='', selectedColor='#35648B', currentModeTab='closing';
+
+let experts=[
+  {id:1,name:'Michaël Aguilar',init:'MA',domain:'Closing & Objections',color:'#FBBC10',active:true,content:'3 familles d\'objections (fausse barbe, tactique, sincère) · DISC · Closing se prépare dès l\'ouverture · Réfutation progressive'},
+  {id:2,name:'Shannen Boutaleb',init:'SB',domain:'FRAME™ · Psychologie vente',color:'#5cace0',active:true,content:'Vendre en comprenant pas en convainquant · FRAME™ · Aversion à la perte · Anticiper ghosting'},
+  {id:3,name:'Christian Delaporte',init:'CD',domain:'Se faire acheter',color:'#78b482',active:true,content:'Se faire acheter plutôt que vendre · Comportement + Stratégie · Créer les conditions de la décision'},
+];
+let customContent=[];
+let currentModePrompts={
+  closing:'MODE CLOSING : Phrases exactes à dire, posture, timing. Cite Aguilar (familles d\'objections) et Shannen (aversion à la perte). "Je vais réfléchir" → identifier la vraie raison puis traiter.',
+  rdv:'MODE RDV : Scripts d\'approche, messages prospection, accroches. Culture relationnelle corse. Delaporte + Shannen.',
+  strategie:'MODE STRATÉGIQUE : Vision globale, pipeline, organisation semaine, priorisation cibles.',
+  simulation:'MODE SIMULATION : Tu joues un prospect difficile. Objecte naturellement. Feedback coach après chaque échange.',
+  libre:'MODE LIBRE : Toute question commerciale ou stratégique.'
+};
+const defaultModePrompts={...currentModePrompts};
+let quickBtns=[
+  {icon:'🤔',label:'"Je vais réfléchir…"',prompt:'Mon prospect dit je vais réfléchir à la fin du RDV. Comment je réagis exactement ?'},
+  {icon:'⚡',label:'Créer l\'urgence',prompt:'Comment créer l\'urgence sans paraître agressif face à un dirigeant corse ?'},
+  {icon:'📞',label:'Script appel froid DAF',prompt:'Script appel froid pour décrocher un RDV avec un DAF de PME en Corse pour AmHappy.'},
+  {icon:'🗺️',label:'Structure RDV closing',prompt:'Comment structurer mon RDV AmHappy pour closer en 1 seul rendez-vous ?'},
+];
+
+window.addEventListener('load',()=>{
+  binId=localStorage.getItem('ah_bin_id')||'';
+  binApiKey=localStorage.getItem('ah_bin_api')||'';
+  if(binId&&binApiKey){ document.getElementById('setupModal').style.display='none'; loadFromCloud(); }
+});
+
+function saveSetup(){
+  const bid=document.getElementById('setupBinId').value.trim();
+  const bkey=document.getElementById('setupApiKey').value.trim();
+  if(!bid||!bkey){alert('Remplis les deux champs.');return;}
+  localStorage.setItem('ah_bin_id',bid); localStorage.setItem('ah_bin_api',bkey);
+  binId=bid; binApiKey=bkey;
+  document.getElementById('setupModal').style.display='none';
+  loadFromCloud();
+}
+
+function resetSetup(){
+  if(!confirm('Reconfigurer ?')) return;
+  localStorage.removeItem('ah_bin_id'); localStorage.removeItem('ah_bin_api');
+  location.reload();
+}
+
+async function loadFromCloud(){
+  setSyncState('syncing','Chargement...');
+  try{
+    const res=await fetch(`https://api.jsonbin.io/v3/b/${binId}/latest`,{headers:{'X-Master-Key':binApiKey}});
+    const data=await res.json();
+    const r=data.record;
+    if(r.experts&&r.experts.length) experts=r.experts;
+    if(r.content) customContent=r.content;
+    if(r.modes) currentModePrompts={...defaultModePrompts,...r.modes};
+    if(r.quickBtns&&r.quickBtns.length) quickBtns=r.quickBtns;
+    setSyncState('ok','Synchronisé');
+    renderAll();
+  }catch(e){ setSyncState('error','Erreur sync'); renderAll(); }
+}
+
+async function saveAll(){
+  setSyncState('syncing','Sauvegarde...');
+  try{
+    await fetch(`https://api.jsonbin.io/v3/b/${binId}`,{
+      method:'PUT',
+      headers:{'Content-Type':'application/json','X-Master-Key':binApiKey},
+      body:JSON.stringify({experts,content:customContent,modes:currentModePrompts,quickBtns})
+    });
+    setSyncState('ok','Synchronisé ✓');
+    showToast('✓ Synchronisé avec l\'app iPhone !');
+    updateStats();
+  }catch(e){ setSyncState('error','Erreur'); showToast('❌ Erreur de sauvegarde'); }
+}
+
+function setSyncState(state,label){
+  document.getElementById('syncDot').className='sync-dot '+(state==='ok'?'':state);
+  document.getElementById('syncLabel').textContent=label;
+}
+
+function renderAll(){ renderExperts(); renderContent(); renderModePrompt(); renderQuickBtns(); updateStats(); }
+function updateStats(){
+  const n=experts.filter(e=>e.active).length;
+  ['statExperts','kpiExperts'].forEach(id=>document.getElementById(id).textContent=n);
+  ['statContent','kpiContent'].forEach(id=>document.getElementById(id).textContent=customContent.length);
+  ['statQuick','kpiQuick'].forEach(id=>document.getElementById(id).textContent=quickBtns.length);
+}
+function showPanel(id,el){ document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active')); document.querySelectorAll('.nav-link').forEach(n=>n.classList.remove('active')); document.getElementById('panel-'+id).classList.add('active'); el.classList.add('active'); }
+
+function renderExperts(){
+  const list=document.getElementById('expertsList');
+  if(!experts.length){list.innerHTML='<div class="empty-state"><div class="ei">👤</div><p>Aucun expert.</p></div>';return;}
+  list.innerHTML=experts.map((e,i)=>`
+    <div class="expert-row">
+      <div class="expert-av" style="background:${e.color}22;color:${e.color}">${e.init}</div>
+      <div class="expert-info"><h4>${e.name}</h4><p>${e.domain}</p></div>
+      ${i>=3?`<button class="btn btn-danger btn-sm" onclick="deleteExpert(${i})">🗑</button>`:''}
+      <label class="toggle-switch"><input type="checkbox" ${e.active?'checked':''} onchange="toggleExpert(${i},this.checked)"><div class="toggle-track"></div></label>
+    </div>`).join('');
+}
+function toggleAddExpert(){ const c=document.getElementById('addExpertCard'); c.style.display=c.style.display==='none'?'block':'none'; }
+function selectColor(el){ document.querySelectorAll('.color-opt').forEach(o=>o.classList.remove('selected')); el.classList.add('selected'); selectedColor=el.dataset.color; }
+function saveExpert(){
+  const name=document.getElementById('eName').value.trim();
+  const init=document.getElementById('eInit').value.trim().toUpperCase();
+  const domain=document.getElementById('eDomain').value.trim();
+  const content=document.getElementById('eContent').value.trim();
+  if(!name||!init||!domain){alert('Nom, initiales et domaine requis.');return;}
+  experts.push({id:Date.now(),name,init,domain,color:selectedColor,active:true,content});
+  renderExperts(); updateStats();
+  document.getElementById('addExpertCard').style.display='none';
+  ['eName','eInit','eDomain','eContent'].forEach(id=>document.getElementById(id).value='');
+  showToast('Expert ajouté — clique sur Sauvegarder & Sync');
+}
+function toggleExpert(i,val){ experts[i].active=val; updateStats(); }
+function deleteExpert(i){ if(!confirm('Supprimer ?'))return; experts.splice(i,1); renderExperts(); updateStats(); }
+
+const catColors={'Technique vente':'#35648B','Traitement d\'objection':'#e53e3e','Script / Phrase clé':'#8b5cf6','Extrait de livre':'#FBBC10','Note de podcast / vidéo':'#3b82f6','Retour terrain Corse':'#00b87a','Argument AmHappy':'#f59e0b','Autre':'#888'};
+function renderContent(){
+  const list=document.getElementById('contentList');
+  if(!customContent.length){list.innerHTML='<div class="empty-state"><div class="ei">📭</div><p>Aucun contenu ajouté.</p></div>';return;}
+  list.innerHTML=customContent.map((c,i)=>`
+    <div class="content-item">
+      <div class="content-dot" style="background:${catColors[c.category]||'#888'}"></div>
+      <div class="content-info">
+        <div class="content-title">${c.title}</div>
+        <div class="content-cat">${c.category}${c.source?' · '+c.source:''}</div>
+        <div class="content-text">${c.content.substring(0,120)}${c.content.length>120?'…':''}</div>
+      </div>
+      <button class="btn btn-danger btn-sm" onclick="deleteContent(${i})">🗑</button>
+    </div>`).join('');
+}
+function saveContent(){
+  const cat=document.getElementById('cCat').value;
+  const title=document.getElementById('cTitle').value.trim();
+  const source=document.getElementById('cSource').value.trim();
+  const content=document.getElementById('cContent').value.trim();
+  if(!title||!content){alert('Titre et contenu requis.');return;}
+  customContent.push({category:cat,title,source,content,addedAt:new Date().toLocaleDateString('fr-FR')});
+  renderContent(); updateStats(); clearContentForm();
+  showToast('Contenu ajouté — clique sur Sauvegarder & Sync');
+}
+function clearContentForm(){ ['cTitle','cSource','cContent'].forEach(id=>document.getElementById(id).value=''); }
+function deleteContent(i){ if(!confirm('Supprimer ?'))return; customContent.splice(i,1); renderContent(); updateStats(); }
+function clearAllContent(){ if(!confirm('Tout effacer ?'))return; customContent=[]; renderContent(); updateStats(); }
+
+function selectModeTab(mode,el){ currentModeTab=mode; document.querySelectorAll('#modeTabs .tab').forEach(t=>t.classList.remove('active')); el.classList.add('active'); renderModePrompt(); }
+function renderModePrompt(){ document.getElementById('modePromptText').value=currentModePrompts[currentModeTab]||''; }
+function saveMode(){ currentModePrompts[currentModeTab]=document.getElementById('modePromptText').value; showToast('Mode sauvegardé — clique sur Sauvegarder & Sync'); }
+function resetMode(){ currentModePrompts[currentModeTab]=defaultModePrompts[currentModeTab]; renderModePrompt(); }
+
+function renderQuickBtns(){
+  document.getElementById('quickBtnsForms').innerHTML=quickBtns.map((btn,i)=>`
+    <div class="card">
+      <div class="card-header"><div class="card-title">Raccourci ${i+1}</div></div>
+      <div class="card-body" style="display:grid;grid-template-columns:90px 1fr;gap:12px">
+        <div>
+          <label>Emoji</label><input type="text" value="${btn.icon}" id="qi${i}" maxlength="2" style="text-align:center;font-size:20px">
+          <label>Label</label><input type="text" value="${btn.label}" id="ql${i}">
+        </div>
+        <div><label>Question envoyée au Coach</label><textarea id="qp${i}" style="min-height:80px">${btn.prompt}</textarea></div>
+      </div>
+    </div>`).join('');
+}
+function saveQuickBtns(){
+  quickBtns=quickBtns.map((_,i)=>({icon:document.getElementById(`qi${i}`).value,label:document.getElementById(`ql${i}`).value,prompt:document.getElementById(`qp${i}`).value}));
+  showToast('Raccourcis sauvegardés — clique sur Sauvegarder & Sync');
+}
+
+function showToast(msg){ const t=document.getElementById('toast'); t.textContent=msg; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),3500); }
+</script>
 </body>
 </html>
